@@ -69,7 +69,7 @@ Y_start = Y_clean - v;
 
 % Plot the directional field
 figure;
-quiver(X_start, Y_start, 2*u, 2*v, 'k.'); % Plot defined as lines
+quiver(X_start, Y_start, 2*u, 2*v, 'k');
 hold on;
 plot(undefinedX, undefinedY, 'ko'); % Plot undefined as holes
 axis tight;
